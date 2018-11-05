@@ -1,0 +1,14 @@
+{
+  "main.css": "/CRA-precompile-example/uk/static/css/main.6a1bbe94.chunk.css",
+  "main.js": "/CRA-precompile-example/uk/static/js/main.d019bebd.chunk.js",
+  "main.js.map": "/CRA-precompile-example/uk/static/js/main.d019bebd.chunk.js.map",
+  "static/js/1.1d216390.chunk.js": "/CRA-precompile-example/uk/static/js/1.1d216390.chunk.js",
+  "static/js/1.1d216390.chunk.js.map": "/CRA-precompile-example/uk/static/js/1.1d216390.chunk.js.map",
+  "runtime~main.js": "/CRA-precompile-example/uk/static/js/runtime~main.17940000.js",
+  "runtime~main.js.map": "/CRA-precompile-example/uk/static/js/runtime~main.17940000.js.map",
+  "static/media/logo.svg": "/CRA-precompile-example/uk/static/media/logo.5d5d9eef.svg",
+  "static/css/main.6a1bbe94.chunk.css.map": "/CRA-precompile-example/uk/static/css/main.6a1bbe94.chunk.css.map",
+  "index.html": "/CRA-precompile-example/uk/index.html",
+  "precache-manifest.55fdd1a6f5f99705f43d76d9ac49966c.js": "/CRA-precompile-example/uk/precache-manifest.55fdd1a6f5f99705f43d76d9ac49966c.js",
+  "service-worker.js": "/CRA-precompile-example/uk/service-worker.js"
+}
