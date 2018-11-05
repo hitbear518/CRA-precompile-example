@@ -14,8 +14,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "update-uk": "ttag update i18n/uk.po src/",
-    "build-en": "PUBLIC_URL=https://ttag-org.github.io/CRA-precompile-example/ npm run build",
-    "build-uk": "PUBLIC_URL=https://ttag-org.github.io/CRA-precompile-example/uk APP_LANG=uk npm run build",
+    "build-en": "PUBLIC_URL=/CRA-precompile-example npm run build",
+    "build-uk": "PUBLIC_URL=/CRA-precompile-example/uk APP_LANG=uk npm run build",
     "build-all": "npm run build-uk && mv build uk && npm run build-en && mv uk build/",
     "publish": "npm run build-all && cd build && git init && git commit --allow-empty -m 'update gh-pages' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update book' && git push git@github.com:ttag-org/CRA-precompile-example.git gh-pages --force"
   },

@@ -6,8 +6,8 @@ import './App.css';
 const LangSwitcher = () => (
   <div className="Lang-switch">
     <h2>{ t`Switch lang`}</h2>
-    <a href="/uk/">uk</a>
-    <a href="/">en</a>
+    <a href={`/CRA-precompile-example/uk`}>uk</a>
+    <a href={`/CRA-precompile-example/`}>en</a>
   </div>
 )
 
