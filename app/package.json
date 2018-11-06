@@ -17,7 +17,8 @@
     "build-en": "PUBLIC_URL=/CRA-precompile-example npm run build",
     "build-uk": "PUBLIC_URL=/CRA-precompile-example/uk APP_LANG=uk npm run build",
     "build-all": "npm run build-uk && mv build uk && npm run build-en && mv uk build/",
-    "publish": "npm run build-all && cd build && git init && git commit --allow-empty -m 'update gh-pages' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update book' && git push git@github.com:ttag-org/CRA-precompile-example.git gh-pages --force"
+    "predeploy": "build-all",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,6 +30,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "ttag-cli": "^1.4.2",
     "ttag.macro": "^1.4.2"
   }

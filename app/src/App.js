@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { t, jt } from 'ttag.macro';
+import GithubRibbon from './GithubRibbon';
 import logo from './logo.svg';
 import './App.css';
 
@@ -30,7 +31,16 @@ class App extends Component {
           >
             { t`Learn React` }
           </a>
+          <a
+            className="App-link"
+            href="https://ttag.js.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            { t`Learn ttag` }
+          </a>
         </header>
+        <GithubRibbon/>
       </div>
     );
   }
