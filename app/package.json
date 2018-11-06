@@ -17,7 +17,7 @@
     "build-en": "PUBLIC_URL=/CRA-precompile-example npm run build",
     "build-uk": "PUBLIC_URL=/CRA-precompile-example/uk APP_LANG=uk npm run build",
     "build-all": "npm run build-uk && mv build uk && npm run build-en && mv uk build/",
-    "predeploy": "build-all",
+    "predeploy": "npm run build-all",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
