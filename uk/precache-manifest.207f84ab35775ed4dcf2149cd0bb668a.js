@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/CRA-precompile-example/uk/static/js/runtime~main.17940000.js"
   },
   {
-    "revision": "fd91f8a987d8bb825452",
-    "url": "/CRA-precompile-example/uk/static/js/main.fd91f8a9.chunk.js"
+    "revision": "fffc03c6acc06168dc3e",
+    "url": "/CRA-precompile-example/uk/static/js/main.fffc03c6.chunk.js"
   },
   {
     "revision": "1d216390b8128bbad392",
     "url": "/CRA-precompile-example/uk/static/js/1.1d216390.chunk.js"
   },
   {
-    "revision": "fd91f8a987d8bb825452",
+    "revision": "fffc03c6acc06168dc3e",
     "url": "/CRA-precompile-example/uk/static/css/main.d757313e.chunk.css"
   },
   {
-    "revision": "a37b3cd73bc56e9430401ca9013cea4c",
+    "revision": "16b5860ecfe033fa67e44a61e0249f4a",
     "url": "/CRA-precompile-example/uk/index.html"
   }
 ];
