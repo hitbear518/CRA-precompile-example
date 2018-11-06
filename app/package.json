@@ -13,10 +13,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "update-uk": "ttag update i18n/uk.po src/",
+    "update": "ttag update i18n/uk.po src/ && ttag update i18n/ru.po src/",
     "build-en": "PUBLIC_URL=/CRA-precompile-example npm run build",
     "build-uk": "PUBLIC_URL=/CRA-precompile-example/uk APP_LANG=uk npm run build",
-    "build-all": "npm run build-uk && mv build uk && npm run build-en && mv uk build/",
+    "build-ru": "PUBLIC_URL=/CRA-precompile-example/ru APP_LANG=ru npm run build",
+    "build-all": "sh build-all.sh",
     "predeploy": "npm run build-all",
     "deploy": "gh-pages -d build"
   },

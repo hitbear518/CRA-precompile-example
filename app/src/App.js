@@ -8,6 +8,7 @@ const LangSwitcher = () => (
   <div className="Lang-switch">
     <h2>{ t`Switch lang`}</h2>
     <a href={`/CRA-precompile-example/uk`}>uk</a>
+    <a href={`/CRA-precompile-example/ru`}>ru</a>
     <a href={`/CRA-precompile-example/`}>en</a>
   </div>
 )
